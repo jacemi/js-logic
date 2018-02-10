@@ -162,6 +162,15 @@ console.log(mark);
  * Console.log your result.
 */
 
+function notEqual(first, second){
+	if(first !== second){
+		return "Opposites do attract"
+	}else{
+		return "Cause it's like you're my mirror"
+	}
+}
+var dell = notEqual("gar", "gr");
+console.log(dell);
 
 /*
  * #8
