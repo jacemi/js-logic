@@ -183,7 +183,15 @@ console.log(dell);
  * The function will return true if the number passed into the function is greater than 100, otherwise it will return false.
  * Console.log your result.
 */ 
-
+function spareChange(money){
+	if(money > 100){
+		return true
+	}else{
+		return false
+	}
+}
+var bell = spareChange(99);
+console.log(bell);
 
 
 /*
