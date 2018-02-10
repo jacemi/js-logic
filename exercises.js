@@ -116,7 +116,15 @@ console.log(poyodaboyo);
  * Console.log your result.
 */
 
-
+function bigBird(word){
+	if(word.length === 3){
+		return "Word to Big Bird!"
+	}else{
+		return "POOL'S CLOSED"
+	}
+}
+var zucc = bigBird("ll");
+console.log(zucc);
 
 /*
  * #6
