@@ -71,7 +71,15 @@ console.log(kenny);
  * The function will return true if the first number is greater than the second.
  * Console.log your result.
 */
-
+function isGreaterThan(first, second){
+	if(first > second){
+		return true
+	}else{
+		return false
+	}
+}
+var fiyah = isGreaterThan(3, 1)
+console.log(fiyah);
 
 
 /*
@@ -86,7 +94,15 @@ console.log(kenny);
  * Console.log your result.
 */
 
-
+function mustBeTrue(boo){
+	if(boo === true){
+		return true
+	}else{
+		return false
+	}
+}
+var poyodaboyo = mustBeTrue(null);
+console.log(poyodaboyo);
 
 /*
  * #5
