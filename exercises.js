@@ -230,7 +230,9 @@ console.log(smell);
  * Console.log your result.
 */ 
 
-
+function evenStevens(num){
+	
+}
 
 
 /*
@@ -245,7 +247,15 @@ console.log(smell);
  * If BOTH values are 21 or over, the function will return the message: "Welcome to the Legends Lounge." Otherwise, it will return the message: "Chuck E Cheese is across the street."
  * Console.log your result.
 */ 
-
+function daClub(cover, age){
+	if(cover && age >= 21){
+		return "Welcome to the Legends Lounge."
+	}else{
+		return "Chuck E Cheese is across the street."
+	}
+}
+var ladidah = daClub(21, 20);
+console.log(ladidah);
 
 /*
  * #12
@@ -259,7 +269,15 @@ console.log(smell);
  * If EITHER the number value is greater than or equal to 120 or the boolean value is true, then the function will return the message: "Congratulations on a job well done." Otherwise, return the message: "See you in summer school."
  * Console.log your result.
 */ 
-
+function graduation(credits, thesis){
+	if(credits >= 120 || thesis === true){
+		return "Congratulations on a job well done."
+	}else{
+		return "See you in summer school."
+	}
+}
+var howzzit = graduation(1, true);
+console.log(howzzit);
 
 
 /*
@@ -273,7 +291,17 @@ console.log(smell);
  * The function will return the message: "You are riding Honolulu's Rail.", if the number value is less than 50, otherwise it will return the message: "You are riding an Amtrak.", if the number value is less than 100, and return the message: "Now you ballin' in the Shinkansen!", if the number value is greater than or equal to 100.
  * Console.log your result.
 */ 
-
+function moneyTrain(speed){
+	if(speed < 50){
+		return "You are riding Honolulu's Rail."
+	}if(speed < 100 && speed >= 50){
+		return "You are riding an Amtrak."
+	}if(speed >= 100){
+		return "Now you ballin' in the Shinkansen!"
+	}
+}
+var antelope = moneyTrain(50);
+console.log(antelope);
 
 /*
  * #14
